@@ -10,6 +10,7 @@ Telas grandes = acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Tablets */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -29,7 +30,9 @@ Telas grandes = acima de 1200px
         width: 70%;
     }
 }
+
 @media screen and (min-width: 992px) {
+    /* Desktops e telas maiores */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -47,5 +50,13 @@ Telas grandes = acima de 1200px
     section#login > div#form {
         float: left;
         width: 50%;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+
+    div#form > p {
+        font-size: 1.2em;
     }
 }
